@@ -122,6 +122,16 @@ class Menus:
 
                 apidebugger(target, json_data, headers, method)
 
+    def Credit():
+        Utils.title("[~] Credit")
+        Utils.art()
+        message = """
+           Developed by /jwe0\n
+      Github: https://github.com/jwe0\n
+ Only-my.space: https://only-my.space/jwe0
+        """
+        print(Center.XCenter(message))
+        input()
 
 
 
@@ -146,6 +156,8 @@ class Main:
                 Menus.Layer_7()
             case "3":
                 Menus.Tools()
+            case "credit":
+                Menus.Credit()
 
 
 
